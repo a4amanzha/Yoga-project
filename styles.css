@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #3f72af;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pose-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pose-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.pose-card:hover {
+    transform: scale(1.05);
+}
+
+.pose-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+.pronunciation {
+    color: #27ae60;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.benefits {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #3f72af;
+}
